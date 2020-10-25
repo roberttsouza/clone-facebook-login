@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #F0F2F5;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 980px;
+    margin: auto;
+}
+
+.conteudo div + div{
+margin: auto 50px ;
+}
+
+.logo{
+    margin: 30vh auto;
+}
+
+.logo img{  
+    max-width: 300px;
+    margin-left: -33px;
+
+}
+
+.logo h1{
+    font-size: 28px;
+}
+
+
+/* FORM */
+
+form{
+    display: inline-block;
+    margin-top: 80px;
+    background: white;
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.09);
+}
+
+
+
+form input{
+    width: 364px;
+    margin-bottom: 10px;
+    padding: 17px 0;
+    border-radius: 6px;
+    border: 1px solid rgba(124, 121, 121, 0.377);
+    font-size: 16px;
+    text-indent: 17px;
+    background: white;
+}
+
+form button{ 
+    width: 364px;
+    border: none;
+    padding: 17px 0;
+    border-radius: 6px;
+    background: #166FE5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+form a{
+    font-size: 14px;
+    color: #166FE5;
+    background:white;
+}
+
+form   .linha{
+    margin-top: 15px;
+    border: 1px solid rgba(124, 121, 121, 0.192);
+    margin-bottom: 35px;
+}
+
+form .criar{
+    width: 180px;
+    color: white;
+    padding: 15px 19px;
+    background: #3ebd25;
+    font-size: 17px;
+    font-weight: bold ;
+    border-radius: 6px;
+}
+
+
+
+.dica{
+    margin-top: 20px;
+
+}
+
+.dica a{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+}
